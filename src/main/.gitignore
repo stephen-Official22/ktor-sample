@@ -1,0 +1,25 @@
+
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+service-account*.json
+firebase-adminsdk*.json
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
